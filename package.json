@@ -1,0 +1,34 @@
+{
+  "name": "keepawake",
+  "version": "0.0.1",
+  "description": "Keep awake multiple Heroku and Openshift free apps",
+  "license": "MIT",
+  "repository": "jlobos/keepawake",
+  "author": "Jesús Lobos <jlobitu@gmail.com>",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "heroku",
+    "openshift",
+    "keep",
+    "awake",
+    "alive",
+    "multiple"
+  ],
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "node-fetch": "^1.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.0.0"
+  }
+}
