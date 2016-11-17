@@ -28,7 +28,7 @@
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "standard": "^8.4.0"
   }
 }
